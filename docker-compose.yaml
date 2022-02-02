@@ -268,21 +268,3 @@ services:
 
 volumes:
   postgres-db-volume:
-  
-  db_sqlite:
-  conn_type: sqlite
-  extra: null
-  host: null
-  login: null
-  password: null
-  port: null
-  schema: null
-  
-  starwars_api:
-  conn_type: http
-  extra: null
-  host: https://swapi.dev/
-  login: null
-  password: null
-  port: null
-  schema: null
